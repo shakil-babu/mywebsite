@@ -1,0 +1,680 @@
+body{
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+
+/* homeSection */
+#homeSection{
+    background: url(../img/banner.jpg)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 635px;
+    }
+    
+    .halfSection{
+        margin-top: 120px;
+    }
+    
+    .halfSection h3{
+        color: #fff;
+    font-family: ll;
+    font-size: 41px;
+    
+    }
+    .halfSection h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    }
+    .halfSection h1 span{
+    color: #e6b31e;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    }
+    
+    .logoName{
+        color: #fff;
+        font-size: 30px;
+    }
+    .logoName:hover{
+        color: #fff;
+    }
+    .logoName:focus{
+        color: #e6b31e !important;
+    }
+    a.text-light{
+        font-size: 20px;
+        font-family: 'Baloo Chettan 2', cursive;
+    }
+    a.text-light:hover {
+        
+        color: #e6b31e !important;
+        transition: .5s;
+        
+    }
+    a.text-light:hover span{
+        
+        border-bottom:1px solid #e6b31e;
+        padding-bottom: 5px;
+        transition: .3s;
+    
+    }
+    navbar-toggler-icon{
+        color: #fff;
+    }
+    
+    .hireButton{
+    
+    
+        border: 1px solid #e6b31e;
+        padding: 12px 20px;
+        font-size: 16px;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #e6b31e;
+        position: relative;
+        font-weight: bold;
+        transition: all linear .3s;
+        
+        
+     
+    }
+    .hireButton i{
+        font-size: 13px;
+        margin-left: 5px;
+    }
+    .hireButton:hover{
+        text-decoration: none;
+        color: #fff;
+        background-color: #e6b31e;
+        width: 70%;
+    }
+    
+    /* aboutSection */
+    #aboutSection{
+        background:url('../img/about.jpg')no-repeat;
+        background-attachment: fixed;
+        min-height: 500px;
+        background-size: cover;
+    
+    }
+    
+
+    .overly{
+        background: rgba(0, 0, 0, 0.822);
+        min-height: 500px;
+    }
+    
+    .aboutHeading{
+        font-family: 'Nunito Sans', sans-serif;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    .headerOFab{
+        color:#e6b31e;
+        margin-top: 50px;
+    }
+    
+    .aboutPic{
+        border-top-left-radius: 100px;
+        height: 430px;
+        width: 85%;
+        margin-bottom: 50px;
+        box-shadow: 2px 0px 7px 3px orange;
+        border-bottom-right-radius: 100px;
+        }
+    
+        .icon-items a{
+            color:orange;
+           
+        }
+        .icon-items a i{
+            font-size: 30px;
+            margin-right: 5px;
+    
+            
+        }
+        .icon-items a i:hover{
+            color:white;
+            transition: .7s;
+            
+        }
+    
+        .serviceBlock{
+            height: 290px;
+        }
+        
+    
+        /* serviceSection */
+    
+        #serviceSection{
+            background:dimgray;
+            height: auto;
+        }
+    
+      
+        
+        .serviceBlock i{
+            color: white;
+            font-size: 30px;
+            background-color: orange;
+            width: 80px;
+            padding: 20px;
+            height: 67px;
+           
+            
+    
+            /*! margin-bottom: 14px; */
+        }
+    
+    
+        .serviceBlock h2{
+            color: orange;
+            font-weight: bold;
+            font-family: 'Baloo Chettan 2', cursive;
+            font-size: 20px;
+            margin-top: 10px;
+    
+        }
+        .serviceBlock p{
+            color: darkgrey;
+            font-family: 'Baloo Chettan 2', cursive;
+        }
+        .serviceBlock:hover{
+            box-shadow: 0  30px 35px rgba(0,0,0,0.7);
+            transition:.5s;
+        }
+        .serviceBlock:hover i{
+            transform: scale(.8);
+            transition: .5s;
+        }
+        .serviceBlock:hover p{
+            color: #fff;
+        }
+    
+        .boxIcon{
+            border:3px solid orange;
+            width: 84px;
+            height: 70px;
+        }
+    
+      /*  */
+
+       .hi-slide .hi-next,
+       .hi-slide .hi-prev{
+           top:56%;
+           height: 40px;
+           margin-top: -40px;
+           border-radius: 50px;
+           line-height: 42px;
+           background-color: orange;
+           font-size: 30px;
+       }
+
+       @media(max-width:991px){
+           #imgages{
+               display:none;
+           }
+       }
+
+       @media(max-width:370px){
+           .halfSection h1{
+               font-size: 30px;
+           }
+           .halfSection h1 span{
+               font-size: 15px;
+           }
+       }
+
+
+       /* projectSection */
+       #projectSection{
+        background-color: #65770e1c;
+       }
+
+       .filter-container img{
+           
+           box-shadow: 4px 5px 13px -5px black;
+           position: relative;
+       }
+
+
+.filtr-item{
+    overflow: hidden;
+}
+    .filtr-item:hover .underImage{
+           
+        opacity: 1;
+        top: 0;
+        position: absolute;
+        transition: .5s;
+       } 
+
+
+
+.underImage{
+    position: absolute;
+    top:-40%;
+  
+    background: #ffa50094;
+    opacity: 0;
+    height: 100%;
+    width: 92.5%;
+    transition: .8s;
+    
+}
+.underImage a:hover{
+    text-decoration: none;
+    text-decoration: underline;
+    transition: .5s;
+
+}
+       .underImage a{
+           text-decoration: none;
+       
+           font-size:30px;
+           color: #fff;
+           top: 40%;
+           position: absolute;
+           left: 10%;
+           font-family: 'Baloo Chettan 2', cursive;
+       }
+
+       @media(max-width:991px){
+        .underImage a{
+            text-decoration: none;
+        
+            font-size:20px;
+            color: #fff;
+            top: 40%;
+            position: absolute;
+            left: 10%;
+            font-family: 'Baloo Chettan 2', cursive;
+        }
+
+        .underImage{
+            width: 88%;
+        }
+
+    }
+
+       @media(max-width:767px){
+        .underImage a{
+        font-size:40px;
+           
+            
+        }
+
+        .underImage{
+            width: 94.5%;
+        }
+
+    }
+       @media(max-width:420px){
+        .underImage a{
+
+        
+            font-size:20px;
+            
+        }
+
+        .underImage{
+            width: 93%;
+        }
+
+    }
+       @media(max-width:360px){
+        .underImage a{
+
+        
+            font-size:20px;
+            
+        }
+
+        .underImage{
+            width: 91%;
+        }
+
+    }
+
+
+    /* workSection */
+#workSection{
+    background: url(../img/withmw.jpg)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width:320px;
+}
+.dark-overly{
+    background-color:#0000009e;;
+    min-height: 320px;
+}
+
+#workSection h2{
+    color: #fff;
+    font-family: 'Baloo Chettan 2', cursive;
+    
+}
+
+#workSection h4{
+    color: #fff;
+    font-family: 'Baloo Chettan 2', cursive;
+    
+}
+#workSection p{
+    color: #ddd;
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 0px;
+    
+}
+
+
+.contactButton{
+        font-family: 'Baloo Chettan 2', cursive;
+        border:2px solid #ffa5006e;
+        color: #fff;
+        line-height: 45px;
+        display: inline-block;
+        padding: 0 25px;
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 15px;
+        position: relative;
+        overflow: hidden;
+        z-index: 9999;
+
+        
+    }
+    .contactButton::before{
+        content:'';
+        position: absolute;
+        top: 0;
+        left:-75px;
+        height: 100%;
+        width: 100%;
+        background-color: #ffa5006e;
+        z-index:-1;
+        transition: .7s;
+        
+    }
+    .contactButton:hover{
+        color: white;
+        z-index:1;
+        text-decoration: none;
+    }
+    .contactButton:hover::before {
+        left: 0;
+        transition: .8s;
+        color: black;
+    }
+    
+/* testimonial */
+    .sliderTesti{
+        background: #262626;
+        padding: 50px 0;
+        width: 100%;
+        font-family: 'Baloo Chettan 2', cursive;
+        position: relative;
+    }
+
+
+
+    .img-area{
+        width: 100px;
+        height: 100px;
+        margin:0 auto;
+  
+    }
+    .img-area img{
+        width: 100px;
+        height: 100px;
+        margin:0 auto;
+        border-radius: 50%;
+  
+    }
+.carousel-caption{
+    position: static;
+    padding-bottom: 15px;
+}
+.carousel-caption h3{
+ font-size: 20px;
+ margin-bottom: 5px;
+ margin-top: 5px;
+ font-family: 'Baloo Chettan 2', cursive;
+ color:orange;
+}
+.carousel-caption h4{
+ font-size: 15px;
+ margin-bottom: 5px;
+ margin-top: 5px;
+ font-family: 'Baloo Chettan 2', cursive;
+ color:orange;
+}
+.carousel-caption p{
+ font-size: 25px;
+ color:#ddd;
+margin: auto;
+width: 70%;
+}
+
+.carousel-indicators{
+    bottom: -40px;
+}
+.carousel {
+    position: relative;
+    height: 360px;
+}
+
+/* sliderResponsive */
+
+@media(max-width:767px){
+    .carousel-caption p{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:350px){
+   .headingofTesti{
+       font-size: 25px;
+   }
+}
+
+
+/* blogSection */
+#blogSection{
+    background:#bbd5cf78;
+   
+}
+
+
+
+.readButton{
+    font-family: 'Baloo Chettan 2', cursive;
+    border:2px solid #ffa5006e;;
+    color: #000000de;;
+    line-height: 45px;
+    display: inline-block;
+    padding: 0 25px;
+    font-size: 14px;
+    font-weight: 600;
+
+    position: relative;
+    overflow: hidden;
+
+    transition: .8s;
+
+    
+    z-index: 2;
+}
+.readButton::before{
+    content:'';
+    position: absolute;
+    top: 25px;
+    left:0px;
+    height: 100%;
+    width: 100%;
+    background-color: #ffa5006e;;
+    z-index:-1;
+    transition: .7s;
+    
+}
+.readButton:hover{
+    color: white;
+    z-index:1;
+    text-decoration: none;
+    transition: .8s;
+}
+.readButton:hover::before {
+    top: 0;
+    transition: .8s;
+}
+
+.card{
+    height: 460px;
+    width: 100%;
+    overflow: hidden;
+    transition: .8s;
+}
+.card:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.card img{
+    transition: 1s;
+
+}
+.card:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+@media(max-width:991px){
+    #blogSection{
+        background:none;
+       
+    }
+
+
+}
+
+@media(max-width:12000px){
+.removeCard{
+    display:none;
+}
+
+}
+@media(max-width:991px){
+.removeCard{
+    display:block;
+}
+.jsCard{
+    margin-top:23px;
+}
+
+
+
+}
+
+@media(max-width:767px){
+    .card{
+        height: 515px;
+    }
+}
+
+
+/* contactSection */
+.firstBox{
+    border: 2px solid orange;
+    padding: 50px;
+    width:100%;
+    height: 215px;
+}
+.firstBox i{
+    font-size:40px;
+    color: white;
+
+}
+.firstBox h4{
+    width: 100%;
+    margin-top:10px;
+    font-size: 16px;
+}  
+.firstBox p{
+    color: gray;
+    font-size: 15px;
+}
+
+.firstBox{
+    position: relative;
+    overflow: hidden;
+} 
+
+
+.firstBox::before{
+    content:'';
+    position: absolute;
+    top: -50px;
+    left:0px;
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+    z-index:-1;
+    transition: .7s;
+    
+}
+.firstBox:hover{
+    color: white;
+    z-index:1;
+    text-decoration: none;
+    transition: .8s;
+}
+.firstBox:hover::before {
+    top: 0;
+    transition: .8s;
+}
+
+
+/* contact */
+
+.d-flex input{
+    width: 100%;
+}
+
+.form-control{
+    height: 60px;
+    border-radius: 0px;
+}
+
+/* finalResponsive */
+
+#headerSection{
+    z-index: 100;
+    position:relative;
+}
+.is-sticky #headerSection:after{
+content: '';
+background-color: rgba(0, 0, 0, 0.753);
+border-bottom: 2px solid orange;
+width: 100%;
+height: 100%;
+position: absolute;
+top:0px;
+left: 0;
+z-index: -1;
+
+}
+
+/* back-to-top */
+
+#back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    font-size: 25px;
+    background-color:orange;
+    border:none;
+    color:white;
+}
